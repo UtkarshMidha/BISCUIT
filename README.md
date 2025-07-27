@@ -27,7 +27,7 @@ The steps for installing the requirements are:
 ## Demo
 Demo notebook that showcases a pretrained BISCUIT-NF model on the iTHOR dataset - Causal_World.ipynb with more visualization. The notebook can be run on Google Colab and can be found [here](https://colab.research.google.com/github/UtkarshMidha/BISCUIT/blob/main/Causal_World.ipynb).
 
-![Triplet Generation](https://github.com/UtkarshMidha/BISCUIT/assets/25037725/882e5258-74b4-4790-aa75-341e7059230e)
+![Triplet Generation](https://github.com/phlippe/BISCUIT/assets/25037725/882e5258-74b4-4790-aa75-341e7059230e)
 
 
 ## Datasets
@@ -44,7 +44,7 @@ For training, set `num_sequences` to 1500 and `prefix` to `"train"`, and for eva
 
 In case you face difficulties with installing or running the simulation via the `ai2thor` package, please refer to the [official documentation](https://ai2thor.allenai.org/ithor/documentation/). 
 
-https://github.com/UtkarshMidha/BISCUIT/assets/25037725/c0826868-2a93-4c92-a504-03627efe884c
+https://github.com/phlippe/BISCUIT/assets/25037725/c0826868-2a93-4c92-a504-03627efe884c
 
 ### CausalWorld
 
@@ -61,7 +61,7 @@ Adjust the parameter `num_processes` to the number of cores available on your ma
 
 The CausalWorld dataset generation may require a slightly adjusted version of the `causal_world` package. If interested in obtaining this code, please reach out (see contact information at the bottom). 
 
-https://github.com/UtkarshMidha/BISCUIT/assets/25037725/3a585c18-cb48-4f17-bee1-1f5dd6dd1f34
+https://github.com/phlippe/BISCUIT/assets/25037725/3a585c18-cb48-4f17-bee1-1f5dd6dd1f
 
 ### Voronoi
 
@@ -80,7 +80,7 @@ Adjust the parameter `num_processes` to the number of cores available on your ma
 For 9 variables, change the parameter `num_causal_vars` to 9. 
 To generate a dataset with minimal number of interactions, add `--use_minimal_action_interventions`.
 
-![Voronoi_Example](https://github.com/UtkarshMidha/BISCUIT/assets/25037725/570a47bd-a564-419a-a4f1-56c576738c27)
+![Voronoi_Example](https://github.com/phlippe/BISCUIT/assets/25037725/570a47bd-a564-419a-a4f1-56c576738c27)
 
 ## Running experiments
 
