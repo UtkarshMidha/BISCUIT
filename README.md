@@ -61,7 +61,7 @@ Adjust the parameter `num_processes` to the number of cores available on your ma
 
 The CausalWorld dataset generation may require a slightly adjusted version of the `causal_world` package. If interested in obtaining this code, please reach out (see contact information at the bottom). 
 
-https://github.com/phlippe/BISCUIT/assets/25037725/3a585c18-cb48-4f17-bee1-1f5dd6dd1f
+https://github.com/phlippe/BISCUIT/assets/25037725/3a585c18-cb48-4f17-bee1-1f5dd6dd1f34
 
 ### Voronoi
 
