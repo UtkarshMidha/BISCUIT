@@ -47,8 +47,19 @@ In case you face difficulties with installing or running the simulation via the 
 https://github.com/phlippe/BISCUIT/assets/25037725/c0826868-2a93-4c92-a504-03627efe884c
 
 ### CausalWorld
+🔧 Reconstructing causal_world.zip from Split Parts
+Due to GitHub's file size limits, the causal_world.zip dataset has been split into three parts (part_aa, part_ab, part_ac) using the split command.
 
+To reconstruct the original zip file, run the following command in a Unix shell (e.g., Git Bash) or Linux/Mac terminal:
 To generate the CausalWorld dataset, run:
+```
+cat part_aa part_ab part_ac > causal_world.zip
+```
+Then unzip the reconstructed file:
+```
+unzip causal_world.zip
+```
+
 ```
 python data_generation/data_generation_causal_world.py --output_folder data/causal_world \
                                                        --num_sequences 200 \
